@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Hello World</string>
     <string name="superman">Superman</string>
-    <string name="clark_Kent">Clark Kent</string>
     <string name="clark_kent">Clark Kent</string>
 </resources>
