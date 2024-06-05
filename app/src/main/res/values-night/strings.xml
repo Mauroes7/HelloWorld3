@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">DC Comics</string>
     <string name="superman">Superman</string>
-    <string name="clark_Kent">Clark Kent</string>
-    <string name="clark_kent">Clark Kent</string>
+    <string name="name_superman">Clark Kent</string>
+    <string name="powers_superman">Super fuerza, capacidad de volar, invulnerabilidad, super velocidad, visión calorífica, aliento congelante, visión de rayos X, super curación</string>
+    <string name="name">"Nombre: "</string>
+    <string name="powers">"Poderes: "</string>
 </resources>
