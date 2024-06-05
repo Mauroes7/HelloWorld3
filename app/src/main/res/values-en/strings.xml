@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">DC Comics</string>
-    <string name="superman">Superman</string>
-    <string name="name_superman">Clark Kent</string>
-    <string name="powers_superman">Super strength, flight, invulnerability, super speed, heat vision, freeze breath, x-ray vision, superhuman hearing, healing factor</string>
+    <string name="app_name">DC Villains</string>
     <string name="name">"Name: "</string>
     <string name="powers">"Powers: "</string>
+    <string name="joker">The Joker</string>
+    <string name="name_joker">Jack Oswald White</string>
+    <string name="powers_joker">Complete unpredictability, chaos agent, customized weapons, wields toxin which causes victims to die laughing</string>
 </resources>

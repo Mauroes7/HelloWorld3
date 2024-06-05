@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">DC Comics</string>
-    <string name="superman">Superman</string>
-    <string name="name_superman">Clark Kent</string>
-    <string name="powers_superman">Super fuerza, capacidad de volar, invulnerable, super velocidad, visión calorífica, aliento congelante, visión de rayos X.</string>
+    <string name="app_name">DC Villanos</string>
     <string name="name">"Nombre: "</string>
     <string name="powers">"Poderes: "</string>
+    <string name="joker">The Joker</string>
+    <string name="name_joker">Jack Oswald White</string>
+    <string name="powers_joker">Completamente impredecible, agente del caos, armas personalizadas, usa una toxina que provoca que las víctimas mueran de risa</string>
 </resources>
