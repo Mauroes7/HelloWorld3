@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DC Villains</string>
+    <string name="name">"Name: "</string>
+    <string name="powers">"Powers: "</string>
+    <string name="joker">The Joker</string>
+    <string name="name_joker">Jack Oswald White</string>
+    <string name="powers_joker">Complete unpredictability, chaos agent, customized weapons, wields toxin which causes victims to die laughing.</string>
+    <string name="profile">"Profile: "</string>
+    <string name="profile_joker">The Joker, Clown Prince of Crime, is Batman\'s arch-nemesis. An agent of chaos known for his malicious plots, wacky gadgets and insidious smile, he has caused Batman more suffering than any other villain he has ever faced. His origin, name, and true motivations remain a mystery.</string>
+    <string name="alleged_name">"Alleged Name: "</string>
+    <string name="joker_quote">\"Don\'t talk like you\'re one of them! You\'re not… even if you\'d like to be. To them you\'re just a freak, like me. They need you right now, but when they don\'t, they\'ll cast you out. Like a leper.\" - Christopher Nolan\'s \"The Dark Knight\", 2008</string>
+</resources>

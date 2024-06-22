@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">DC Villanos</string>
+    <string name="app_name">DC Super-Villanos</string>
     <string name="name">"Nombre: "</string>
     <string name="powers">"Poderes: "</string>
     <string name="joker">The Joker</string>
@@ -9,5 +9,5 @@
     <string name="profile">"Perfil: "</string>
     <string name="profile_joker">The Joker, clown principe del crimen, archienemigo de Batman. Agente del caos conocido por sus maléficos planes, artilugios extravagantes y sonrisa insidiosa, ha causado a Batman más sufrimiento que cualquier otro villano que haya enfrentado. Su origen, nombre y verdaderas motivaciones son un misterio.</string>
     <string name="alleged_name">"Presunto Nombre: "</string>
-    <string name="joker_quote">\"No hables como si fueras uno de ellos! No lo eres… aunque quisieras. Para ellos solo eres un fenómeno, como yo. Ellos te necesitan ahora, pero cuando no te necesiten mas, te patearán. Como a un leproso.\" - Christopher Nolan \"The Dark Knight\", 2008</string>
+    <string name="joker_quote">\"No hables como si fueras uno de ellos! No lo eres… aunque quisieras. Para ellos solo eres un fenómeno, como yo. Ellos te necesitan ahora, pero cuando no te necesiten mas, te patearán. Como a un leproso. Mira, su moral, sus \"códigos\"… Son un mal chiste, se caen a la primera señal de problemas. Ellos solo son tan buenos como el mundo les permite. Yo te mostraré. Cuando las papas quemen, esa uh, esa \"gente civilizada\" -ellos se comerán unos a otros.\" - Christopher Nolan \"The Dark Knight\", 2008</string>
 </resources>
