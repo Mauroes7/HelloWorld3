@@ -10,4 +10,6 @@
     <string name="profile_joker">The Joker, clown principe del crimen, archienemigo de Batman. Agente del caos conocido por sus maléficos planes, artilugios extravagantes y sonrisa insidiosa, ha causado a Batman más sufrimiento que cualquier otro villano que haya enfrentado. Su origen, nombre y verdaderas motivaciones son un misterio.</string>
     <string name="alleged_name">"Presunto Nombre: "</string>
     <string name="joker_quote">\"No hables como si fueras uno de ellos! No lo eres… aunque quisieras. Para ellos solo eres un fenómeno, como yo. Ellos te necesitan ahora, pero cuando no te necesiten mas, te patearán. Como a un leproso.\" - Christopher Nolan \"The Dark Knight\", 2008</string>
+    <string name="record">Super Villain Record</string>
+    <string name="register">Register</string>
 </resources>

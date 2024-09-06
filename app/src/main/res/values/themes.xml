@@ -6,9 +6,9 @@
         <!-- Primary brand color. -->
         <item name="colorPrimary">#89FF00</item>
         <item name="colorPrimaryVariant">#FFF700</item>
-        <item name="colorOnPrimary">#00FF77</item>
+        <item name="colorOnPrimary">#7700FF</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">#7700FF</item>
+        <item name="colorSecondary">#00FF77</item>
         <item name="colorSecondaryVariant">#09FF00</item>
         <item name="colorOnSecondary">#0088FF</item>
         <!-- Status bar color. -->
