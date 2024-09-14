@@ -12,4 +12,6 @@
     <string name="joker_quote">\"No hables como si fueras uno de ellos! No lo eres… aunque quisieras. Para ellos solo eres un fenómeno, como yo. Ellos te necesitan ahora, pero cuando no te necesiten mas, te patearán. Como a un leproso. Mira, su moral, sus \"códigos\"… Son un mal chiste, se caen a la primera señal de problemas. Ellos solo son tan buenos como el mundo les permite. Yo te mostraré. Cuando las papas quemen, esa uh, esa \"gente civilizada\" -ellos se comerán unos a otros.\" - Christopher Nolan \"The Dark Knight\", 2008</string>
     <string name="record">Super Villain Record</string>
     <string name="register">Register</string>
+    <string name="age">Age</string>
+    <string name="info">"Name: %s, age: %.2f"</string>
 </resources>

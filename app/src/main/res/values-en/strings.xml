@@ -12,4 +12,6 @@
     <string name="joker_quote">\"Don\'t talk like you\'re one of them! You\'re not… even if you\'d like to be. To them you\'re just a freak, like me. They need you right now, but when they don\'t, they\'ll cast you out. Like a leper.\" - Christopher Nolan\'s \"The Dark Knight\", 2008</string>
     <string name="record">Super Villain Record</string>
     <string name="register">Register</string>
+    <string name="age">Age</string>
+    <string name="info">"Name: %s, age: %.2f"</string>
 </resources>

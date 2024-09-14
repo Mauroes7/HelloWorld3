@@ -8,6 +8,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.google.android.material.textfield.TextInputEditText
 
 class SuperVillainRecordActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,10 +23,12 @@ class SuperVillainRecordActivity : AppCompatActivity() {
         val registerButton: Button = findViewById(R.id.register_button)
         val nameEditText: EditText = findViewById(R.id.name_editText)
         val infoTextView: TextView = findViewById(R.id.info_textView)
+        val ageEditText: TextInputEditText = findViewById(R.id.age_edit_text)
 
         registerButton.setOnClickListener {
-            val name = nameEditText.text
-            infoTextView.text = name
+            val name : String = nameEditText.text.toString()
+            val age : Float = ageEditText.text.toString().toFloat()
+            infoTextView.text = getString(R.string.info, name, age)
         }
     }
 }
