@@ -3,6 +3,7 @@ package com.arandu.helloworld
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.RadioButton
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -24,11 +25,20 @@ class SuperVillainRecordActivity : AppCompatActivity() {
         val nameEditText: EditText = findViewById(R.id.name_editText)
         val infoTextView: TextView = findViewById(R.id.info_textView)
         val ageEditText: TextInputEditText = findViewById(R.id.age_edit_text)
+        val masculinoRadioButton: RadioButton = findViewById(R.id.masculino_radioButton)
+        val femeninoRadioButton: RadioButton = findViewById(R.id.femenino_radioButton)
 
         registerButton.setOnClickListener {
             val name : String = nameEditText.text.toString()
             val age : Float = ageEditText.text.toString().toFloat()
-            infoTextView.text = getString(R.string.info, name, age)
+            val gender: String
+
+            if (masculinoRadioButton.isChecked)
+                gender = "Masculino"
+            else
+                gender = "Femenino"
+
+            infoTextView.text = getString(R.string.info, name, age, gender)
         }
     }
 }

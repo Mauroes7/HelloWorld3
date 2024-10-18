@@ -13,8 +13,8 @@
     <string name="record">Super Villain Record</string>
     <string name="register">Register</string>
     <string name="age">Age</string>
-    <string name="info">"Name: %s, age: %.2f"</string>
-    <string name="genero">Género</string>
-    <string name="masculino">Masculino</string>
-    <string name="femenino">Femenino</string>
+    <string name="info">"Name: %s, age: %.0f, gender: %s"</string>
+    <string name="genero">Gender</string>
+    <string name="masculino">Masculine</string>
+    <string name="femenino">Feminine</string>
 </resources>
