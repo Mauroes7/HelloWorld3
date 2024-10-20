@@ -26,17 +26,15 @@ class SuperVillainRecordActivity : AppCompatActivity() {
         val infoTextView: TextView = findViewById(R.id.info_textView)
         val ageEditText: TextInputEditText = findViewById(R.id.age_edit_text)
         val masculinoRadioButton: RadioButton = findViewById(R.id.masculino_radioButton)
-        val femeninoRadioButton: RadioButton = findViewById(R.id.femenino_radioButton)
 
         registerButton.setOnClickListener {
             val name : String = nameEditText.text.toString()
             val age : Float = ageEditText.text.toString().toFloat()
-            val gender: String
 
-            if (masculinoRadioButton.isChecked)
-                gender = "Masculino"
+            val gender: String = if (masculinoRadioButton.isChecked)
+                getString(R.string.masculino)
             else
-                gender = "Femenino"
+                getString(R.string.femenino)
 
             infoTextView.text = getString(R.string.info, name, age, gender)
         }
