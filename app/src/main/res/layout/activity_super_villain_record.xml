@@ -96,6 +96,7 @@
         app:layout_constraintTop_toBottomOf="@+id/age_text_input_layout" />
 
     <RadioGroup
+        android:id="@+id/radioGroup"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -120,5 +121,47 @@
             android:layout_weight="1"
             android:text="@string/femenino" />
     </RadioGroup>
+
+    <TextView
+        android:id="@+id/powers_text_view"
+        style="@style/Texto_subtitulo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/powers"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <CheckBox
+        android:id="@+id/intelligence_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/intelligence"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/powers_text_view" />
+
+    <CheckBox
+        android:id="@+id/unpredictability_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/unpredictability"
+        app:layout_constraintStart_toEndOf="@+id/intelligence_checkBox"
+        app:layout_constraintTop_toBottomOf="@+id/powers_text_view" />
+
+    <CheckBox
+        android:id="@+id/speed_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/speed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/intelligence_checkBox" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

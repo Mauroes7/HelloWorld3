@@ -2,6 +2,7 @@ package com.arandu.helloworld
 
 import android.os.Bundle
 import android.widget.Button
+import android.widget.CheckBox
 import android.widget.EditText
 import android.widget.RadioButton
 import android.widget.TextView
@@ -26,6 +27,10 @@ class SuperVillainRecordActivity : AppCompatActivity() {
         val infoTextView: TextView = findViewById(R.id.info_textView)
         val ageEditText: TextInputEditText = findViewById(R.id.age_edit_text)
         val masculinoRadioButton: RadioButton = findViewById(R.id.masculino_radioButton)
+        val intelligenceCheckBox: CheckBox = findViewById(R.id.intelligence_checkBox)
+        val unpredictabilityCheckBox: CheckBox = findViewById(R.id.unpredictability_checkBox)
+        val speedCheckBox: CheckBox = findViewById(R.id.speed_checkBox)
+        var powers = ""
 
         registerButton.setOnClickListener {
             val name : String = nameEditText.text.toString()
@@ -36,7 +41,11 @@ class SuperVillainRecordActivity : AppCompatActivity() {
             else
                 getString(R.string.femenino)
 
-            infoTextView.text = getString(R.string.info, name, age, gender)
+            if (intelligenceCheckBox.isChecked) powers = getString(R.string.intelligence)
+            if (unpredictabilityCheckBox.isChecked) powers = powers + ", " + getString(R.string.unpredictability)
+            if (speedCheckBox.isChecked) powers = powers + ", " + getString(R.string.speed)
+
+            infoTextView.text = getString(R.string.info, name, age, gender, powers)
         }
     }
 }
